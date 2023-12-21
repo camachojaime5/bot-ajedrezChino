@@ -1,0 +1,7 @@
+version: "3"
+services:
+  game_server:
+    network_mode: "host"
+    image: game_server:latest
+    ports: 
+      - "9999:9999/udp"
